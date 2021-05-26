@@ -1,21 +1,22 @@
 header.sticky-header {
     --header-height: 100px;
     --opacity: 0.90;
-    --shrink-me: 0.80;
+    --shrink-me: 0.60;
     --sticky-background-color: #002878;
     --transition: .3s ease-in-out;
 
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.67) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%);
     
     transition: background-color var(--transition),
                 background-image var(--transition),
                 backdrop-filter var(--transition),
-                opacity var(--transition);
+                opacity var(--transition),
+                margin-bottom var(--transition);
     &.elementor-sticky--effects {
         background: none;
         background-color: var(--sticky-background-color) !important;
-        margin-top: calc(0 - var(--header-height) * var(--shrink-me));
+        margin-bottom: calc(0 - var(--header-height) * var(--shrink-me));
         // opacity: var(--opacity) !important;
         // -webkit-backdrop-filter: blur(10px);
         // backdrop-filter: blur(10px);
