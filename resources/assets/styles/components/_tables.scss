@@ -23,6 +23,7 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 3px;
+    &:before,
     &:after {
         display: none;
     }
