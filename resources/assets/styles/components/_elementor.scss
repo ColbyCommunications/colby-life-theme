@@ -26,6 +26,9 @@ section.equal-height div.elementor-widget-wrap > div {
     p:last-child {
         margin-bottom: 0;
     }
+    ul, ol {
+        margin-bottom: 10px;
+    }
 }
 
 .elementor-widget-call-to-action {

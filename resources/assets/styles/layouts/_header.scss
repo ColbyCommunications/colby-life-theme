@@ -37,8 +37,11 @@ header.sticky-header {
             transition: max-width var(--transition);
         }
     }
-    elementor-nav-menu .elementor-item {
-        transition: padding var(--transition);
+    .elementor-nav-menu {
+        > li > .sub-arrow { display: none; }
+        .elementor-item {
+            transition: padding var(--transition);
+        }
     }
 }
 
@@ -62,18 +65,7 @@ section.page-header {
 header {
     a[href="#"] {
         font-style: italic !important;
-        // border-bottom: dotted 1px #cccccc;
         color: #cccccc !important;
-        // &:before,
-        // &:after {
-        //     content: '*';
-        //     display: inline-block;
-        //     position: relative;
-        //     color: #ff0000;
-        //     font-size: 20px;
-        //     opacity: 1 !important;
-        //     background-color: transparent !important;
-        // }
     }
 }
 
