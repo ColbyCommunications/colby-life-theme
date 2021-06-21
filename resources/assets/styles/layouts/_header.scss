@@ -38,7 +38,7 @@ header.sticky-header {
         }
     }
     .elementor-nav-menu {
-        > li > .sub-arrow { display: none; }
+        > li > a > .sub-arrow { display: none; }
         .elementor-item {
             transition: padding var(--transition);
         }

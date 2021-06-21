@@ -40,6 +40,16 @@ section.equal-height div.elementor-widget-wrap > div {
             border: solid 3px #ffffff;
         }
     }
+    &.heading-border {
+        .elementor-cta__content {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            h2 {
+                border: solid 3px rgba( #ffffff, 0.4);
+            }
+        }
+    }
     &.bottom-gradient {
         .elementor-widget-container {
             .elementor-cta__bg-wrapper:after {
