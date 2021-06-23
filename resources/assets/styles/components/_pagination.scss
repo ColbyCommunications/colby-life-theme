@@ -2,16 +2,15 @@
 .pagination {
 	text-align: center;
 	ul.page-numbers {
-		@extend .scaffolding-page-navi;
 		list-style: none;
 		li {
 			display: inline-block;
 			@include transition(all 0.25s ease-in-out);
 			.page-numbers {
-				color: $color__body-text;
+				color: #494949;
 			}
 			.current {
-				color: $color__primary;
+				color: $colby-blue;
 				background-color: #eeeeee;
 			}
 			&:hover {
@@ -19,7 +18,6 @@
 			}
 			&:first-child,
 			&:last-child {
-				@extend .sc-next-link;
 			}
 
 		}
