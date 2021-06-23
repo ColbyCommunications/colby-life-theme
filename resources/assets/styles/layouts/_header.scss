@@ -39,6 +39,7 @@ header.sticky-header {
     }
     .elementor-nav-menu {
         > li > a > .sub-arrow { display: none; }
+        .elementor-nav-menu--dropdown li a .sub-arrow { margin-top: -14px; }
         .elementor-item {
             transition: padding var(--transition);
         }
