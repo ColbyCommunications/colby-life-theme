@@ -1,0 +1,27 @@
+
+.pagination {
+	text-align: center;
+	ul.page-numbers {
+		@extend .scaffolding-page-navi;
+		list-style: none;
+		li {
+			display: inline-block;
+			@include transition(all 0.25s ease-in-out);
+			.page-numbers {
+				color: $color__body-text;
+			}
+			.current {
+				color: $color__primary;
+				background-color: #eeeeee;
+			}
+			&:hover {
+				background-color: #eeeeee;
+			}
+			&:first-child,
+			&:last-child {
+				@extend .sc-next-link;
+			}
+
+		}
+	}
+}
