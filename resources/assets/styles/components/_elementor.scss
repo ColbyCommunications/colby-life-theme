@@ -33,7 +33,7 @@ section.equal-height div.elementor-widget-wrap > div {
 
 .elementor-widget-call-to-action {
     a.elementor-cta:hover {
-        text-decoration: none;;
+        text-decoration: none;
     }
     &.img-border {
         .elementor-cta__bg-wrapper {
@@ -78,6 +78,12 @@ section.equal-height div.elementor-widget-wrap > div {
                 z-index: 2;
             }
         }
+    }
+}
+
+.elementor-widget-icon-list {
+    ul li a:hover {
+        text-decoration: none;
     }
 }
 
