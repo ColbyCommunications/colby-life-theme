@@ -3,23 +3,24 @@
 	text-align: center;
 	ul.page-numbers {
 		list-style: none;
+		padding: 20px 0 0 0;
 		li {
 			display: inline-block;
-			@include transition(all 0.25s ease-in-out);
-			.page-numbers {
-				color: #494949;
+			line-height: 2em;
+			margin-bottom: 1em;
+			a {
+				padding: 10px;
+				border: solid 1px $colby-blue;
+				@include transition(all 0.25s ease-in-out);
+				.selected,
+				&:hover {
+					background-color: rgba($colby-blue, 0.4);
+				}
 			}
-			.current {
-				color: $colby-blue;
-				background-color: #eeeeee;
-			}
-			&:hover {
-				background-color: #eeeeee;
-			}
+			
 			&:first-child,
 			&:last-child {
 			}
-
 		}
 	}
 }
