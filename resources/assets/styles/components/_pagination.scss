@@ -8,6 +8,7 @@
 			display: inline-block;
 			line-height: 2em;
 			margin-bottom: 1em;
+			margin-right: 10px;
 			a {
 				padding: 10px;
 				border: solid 1px $colby-blue;
@@ -19,8 +20,7 @@
 			}
 			
 			&:first-child,
-			&:last-child {
-			}
+			&:last-child {}
 		}
 	}
 }
