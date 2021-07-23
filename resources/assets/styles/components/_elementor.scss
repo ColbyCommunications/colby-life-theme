@@ -1,6 +1,9 @@
 section.equal-height div.elementor-widget-wrap > div {
     display: flex;
     height: 100%;
+    .elementor-widget-container {
+        width: 100%;
+    }
     div.elementor-cta,
     a.elementor-cta {
         @include flex;
